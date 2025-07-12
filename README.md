@@ -1,6 +1,6 @@
 # CS160-Final-Project-Accountability
 
-<img width="483" alt="Screen Shot 2022-08-04 at 9 10 02 PM" src="https://user-images.githubusercontent.com/89662224/182999733-ce667d22-3320-432e-9115-ccaf63173135.png">
+<img width="483" alt="Screen Shot 2025-03-02 at 9 10 02 PM" src="https://ibb.co/Q32Fr9G8">
 Here are some instructions for running this starter code. 
 
 ### 1. [Clone this repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your computer.
