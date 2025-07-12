@@ -1,0 +1,285 @@
+<!-- Referenced: https://www.w3schools.com/html/html_responsive.asp-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> -->
+<script type="text/javascript" src="js/paper-full.js"></script>
+
+<!-- add Bootstrap 4 (from https://getbootstrap.com/docs/4.0/getting-started/download/)-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- add jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--add the Google Material Symbols Font (from https://fonts.google.com/icons ) -->
+<link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+	body {
+    padding-top: 0;
+    padding-right: 0;
+	padding-left: 0;
+    padding-bottom: 0;
+}
+</style>
+
+
+<title>Get Involved</title>
+</head>
+<!-- you can also specify styles straight in html! Let's use Verdana on this page.-->
+<body style="font-family: 'Philosopher';">
+
+<!-- header container start -->
+<ul class="nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" style=" color: #A49474" data-toggle="dropdown" href="#">
+        <img src="/images/menuBar.png" alt="menu icon" width="38" height="38"></a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="user.html">User</a>
+        <a class="dropdown-item" href="community.html">Community</a>
+        <a class="dropdown-item" href="health.html">Health</a>
+        <a class="dropdown-item" href="map.html">Map</a>
+        <a class="dropdown-item" href="getInvolved.html">Get Involved</a>
+      </div>
+    </li>
+    <div class="mtr ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img src="/images/home_icon.png" alt="home icon" width="40" height="40"></a>
+      </li>
+    </div>
+  </ul>
+<!-- header container end -->
+<div class="container-fluid">
+    <div class="row">
+            <!--donation -->
+            <div class="col-xs-12 col-md-8 mx-auto">
+                <img class="img-fluid img-resposive center-bloc" src="images/slide-donate-1600w.jpg">
+            </div>
+            <!--donation -->
+    </div> 
+</div>
+
+<div class="container-fluid">
+    <!--Recommend Pets for Adoption -->
+    <div class="row">      
+        <div class="col-xs-12 col-md-8 mx-auto">
+            <h5 class="font-weight-bold">Recommend Pets for Adoption </h5>
+            <div id="petsCarcontrols" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#petsCarcontrols" data-slide-to="0" class="active"></li>
+                    <li data-target="#petsCarcontrols" data-slide-to="1"></li>
+                    <li data-target="#petsCarcontrols" data-slide-to="2"></li>
+                </ol>   
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/cats.png" alt="First">
+                        <div class="carousel-caption">
+                        <h5>Kiki</h5>
+                        <p>Oakland,CA</p>
+                        </div>
+                    </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/dogs.png" alt="Second">
+                    <div class="carousel-caption">
+                        <h5>Lulu</h5>
+                        <p>Alameda,CA</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/cats.png" alt="Third">
+                    <div class="carousel-caption">
+                        <h5>Tata</h5>
+                        <p>Alameda,CA</p>
+                    </div>
+                </div>
+                </div>
+                    <a class="carousel-control-prev" href="#petsCarcontrols" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#petsCarcontrols" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--Recommend Pets for Adoption end-->
+<!--search-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 mx-auto">
+            <h5 class="font-weight-bold">Adopt the perfect pet</h5>
+            <ul class="nav nav-tabs " role="tablist">
+                <li class="nav-item  active"><a href="#A" data-toggle="tab"><button class="button">Dogs</button></a></li>
+                <li class="nav-item " ><a  href="#B" data-toggle="tab"><button class="button">Cats</button></a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane  active container" id="A">
+                    <input type="text" class="form-control" name="" placeholder="Location" style="font-style: italic;background-color:#f5d6d6;">
+                    <form role="form">
+                        <div class="row form-group">
+                            <div class="col-xs-6 mx-3">
+                                <label for="name">Age</label>
+                                <select class="form-control" style="font-style: italic;background-color:#f5d6d6;">
+                                    <option selected disabled value="">Any</option>
+                                    <option>Puppy</option>
+                                    <option>Young</option>
+                                    <option>Adult</option>
+                                    <option>Senior</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-6 mx-3 " >
+                            <label for="name">Breed</label>
+                            <select class="form-control"style="font-style: italic;background-color:#f5d6d6;">
+                                    <option selected disabled value="">Any</option>
+                                    <option>Affenpinscher</option>
+                                    <option>Afghan Hound</option>
+                                    <option>Airedale Terrier</option>
+                                    <option>Akbash</option>
+                                </select>     
+                            </div>       
+                        </div>
+                    </form>
+                <button onclick="window.location.href='adoption.html'" class="btn col-12" style="background-color:#F88A8A;">Search</button>
+                <br>
+                </div>
+                <div role="tabpanel" class="tab-pane  container" id="B">
+                    <input type="text" class="form-control" name="" placeholder="Location" style="font-style: italic;background-color:#f5d6d6;">
+                    <form role="form">
+                        <div class="row form-group">
+                            <div class="col-xs-6 mx-3">
+                                <label for="name">Age</label>
+                                <select class="form-control" style="font-style: italic;background-color:#f5d6d6;">
+                                    <option selected disabled value="">Any</option>
+                                    <option>Puppy</option>
+                                    <option>Young</option>
+                                    <option>Adult</option>
+                                    <option>Senior</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-6 mx-3 " >
+                            <label for="name">Sex</label>
+                            <select class="form-control"style="font-style: italic;background-color:#f5d6d6;">
+                                    <option selected disabled value="">Any</option>
+                                    <option>Male</option>
+                                    <option>female</option>
+                                </select>     
+                            </div>       
+                        </div>
+                    </form>
+                <button onclick="window.location.href='adoption.html'" class="btn col-12" style="background-color:#F88A8A;" >Search</button>
+                <br>
+                </div>
+            </div>
+            <style type="text/css">
+                .nav-tabs {
+                    /*border: 1px solid #F88A8A;*/
+                    background: #f5d6d6;
+                    text-decoration: none;
+                }
+                .nav-tabs li a button{
+                margin-top: 15px;
+                margin-left: 15px;
+                background-color: #f5d6d6;
+                border: 1px solid #F88A8A;
+                border-bottom: 0px none;
+                color: black;
+                padding: 5px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                cursor: pointer;
+                }
+                .nav-tabs li a button:hover {
+                background-color: #F88A8A;
+                }
+                .nav-tabs li a button:active {
+                background-color: #Fff;
+                }
+                .nav-tabs li a button::after{
+                background-color: #F88A8A;
+                }
+                .tab-content {
+                padding: 5px 5px;
+                color: #030507;
+                font-size: 18px;
+                margin-top: 0px;
+                border: 1px solid ;
+                box-shadow: 0px 0px 15px 0px #F88A8A;
+                }
+        
+            </style>
+            </div>
+            <script>
+                $(".nav-tabs.li.a").click(function(){
+                    $(this).tab("show/hide/toggle");
+                });
+            </script>
+            <!--search end-->
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 mx-auto">
+                <img src="images/bot.png" class="img-fluid" alt="...">
+            </div>   
+        </div>
+
+    </div>
+
+    
+
+            <!-- Nav_Bottom start -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" col-xs-12 col-md-8 mx-auto" id="NavBottom">
+                        <ul class="nav fixed-bottom bg-white navbar-dark justify-content-center">
+                            <li class="nav-item col-xs-4 mb-2">
+                              <a class="nav-link active" href="getInvolved.html">Get Involved</a>
+                            </li>
+                            <li class="nav-item col-xs-4 mb-2">
+                              <a class="nav-link" href="volunteer.html">Volunteer</a>
+                            </li>
+                            <li class="nav-item col-xs-4 mb-2">
+                              <a class="nav-link" href="adoption.html">Adoption</a>
+                            </li>
+                          </ul>
+                          <style type="text/css">
+                            #NavBottom ul li{
+                                border:1px solid #030507;
+                                text-decoration: none;
+                                font-size: 20px;
+                                line-height: 22px;
+                            }
+                            #NavBottom ul li a{
+                                color: black;
+                            }
+                            #NavBottom ul li:active{
+                                background-color: #F88A8A;
+                            }
+                            #NavBottom ul li::after{
+                                background-color: #F88A8A;
+                            }
+                            #NavBottom ul li:hover{
+                                background-color: #F88A8A;
+
+                            }
+
+                        </style>
+                    </div>
+                </div>
+            </div>
+            
+</body></html>

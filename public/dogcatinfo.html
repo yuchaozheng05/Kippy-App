@@ -1,0 +1,287 @@
+<!-- Referenced: https://www.w3schools.com/html/html_responsive.asp-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- add Bootstrap 4 (from https://getbootstrap.com/docs/4.0/getting-started/download/)-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+	body {
+    padding-top: 0;
+    padding-right: 0;
+	  padding-left: 0;
+    padding-bottom: 0;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+.row{
+  margin: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+    color: black;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+    background-color:#fff;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px #F88A8A;
+
+}
+.card-body{
+  padding: 10px;
+
+
+}
+.card img{
+    border: 1px solid #Fff
+}
+.card-text{
+   margin: 0px 0px 0px;
+   font-style: italic;
+}
+
+</style>
+
+<title>dogcatinfo</title>
+</head>
+<!-- you can also specify styles straight in html! Let's use Verdana on this page.-->
+<body style="font-family: 'Philosopher';">
+
+  <!-- header container start -->
+  <ul class="nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" style=" color: #A49474" data-toggle="dropdown" href="#">
+        <img src="/images/menuBar.png" alt="menu icon" width="38" height="38"></a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="user.html">User</a>
+        <a class="dropdown-item" href="community.html">Community</a>
+        <a class="dropdown-item" href="health.html">Health</a>
+        <a class="dropdown-item" href="map.html">Map</a>
+        <a class="dropdown-item" href="getInvolved.html">Get Involved</a>
+      </div>
+    </li>
+    <div class="mtr ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img src="/images/home_icon.png" alt="home icon" width="40" height="40"></a>
+      </li>
+    </div>
+  </ul>
+<!-- header container end -->
+
+<div class="container my-4">
+  <h5 class="font-weight-bold">My name is Kiki !</h5>
+  <div class="border p-1">
+    <!-- Copy this code to have a working example -->
+    <div class="ecommerce-gallery" data-mdb-activation="mouseenter">
+      <div class="row" style="background-color: #f5d6d6; margin: 0px;" >
+        <div class="col-8 mb-1 p-1">
+          <div class="lightbox">
+            <img
+                 src="images/image 39.png"
+                 alt=" image 1"
+                 class="ecommerce-gallery-main-img active w-100"
+                 style="border: 2px solid black"
+                 />
+          </div>
+        </div>
+        <div class="col-4 btn-group-vertical p-0 mb-1 border-box;" role="group" aria-label="Vertical button group" >
+          <a href="askaboutme.html"><button type="button" class="btn mb-1" style="text-size-adjust:14px;background-color: #F88A8A;max-width: 115px; border: 2px solid white">Ask about me</button></a>
+          <a href="#"><button type="button" class="btn mb-1" style="text-size-adjust:14px;background-color: #F88A8A;max-width: 115px; border: 2px solid white">Add to favorite</button></a>
+          <a href="#"><button type="button" class="btn mb-1" style="text-size-adjust:14px;background-color: #F88A8A;max-width: 115px; border: 2px solid white">Get namecard</button></a>
+          <a href="#"><button type="button" class="btn mb-1" style="text-size-adjust:14px;background-color: #F88A8A;max-width: 115px;border: 2px solid white">Adopt me now</button></a>
+        </div>
+        <div class="col-2 my-1" style="padding: 0px 5px;">
+          <img
+               src="images/image 39.png"
+               data-mdb-img="/img/Photos/Slides/1.jpg"
+               alt="image 1"
+               class="active w-100"
+               style="border: 2px solid black"
+               />
+        </div>
+        <div class="col-2 my-1" style="padding: 0px 5px;">
+          <img
+               src="images/image 39.png"
+               data-mdb-img="/img/Photos/Slides/2.jpg"
+               alt="Gallery image 2"
+               class="w-100"
+               style="border: 2px solid white"
+               />
+        </div>
+        <div class="col-2 my-1" style="padding: 0px 5px;">
+          <img
+               src="images/image 39.png"
+               data-mdb-img="/img/Photos/Slides/3.jpg"
+               alt="image 3"
+               class="w-100"
+               style="border: 2px solid white"
+               />
+        </div>
+        <div class="col-2 my-1" style="padding: 0px 5px;">
+          <img
+               src="images/image 39.png"
+               data-mdb-img="/img/Photos/Slides/3.jpg"
+               alt="image 3"
+               class="w-100"
+               style="border: 2px solid white"
+               />
+        </div>
+
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+<!--Facts  about me-->
+<div class="container my-4" >
+  <div class="border p-1" style="background-color: #f5d6d6;border-radius: 10px;">
+  <h5 class="font-weight-bold">Facts  about me</h5>
+<div class="row">
+  <div class="col-6">
+    <p>
+      Breed:<br> German Shepherd Dog
+    </p>
+    <p>
+      Color:<br>Orange/Chestnut
+    </p>
+    <p>
+      Age:<br>2 Years Old, Adult
+    </p>
+    <p>
+      Size:<br>Large 61-100 Lbs
+    </p>
+  </div>
+  <div class="col-6">
+    <p>
+      Weight:<br> -
+    </p>
+    <p>
+      Sex:<br> Male
+    </p>
+    <p>
+      Pet ID:<br> A000007
+    </p>
+  </div>
+</div>
+</div>
+</div>
+<!--Info-->
+<div class="container my-4" >
+  <div class="border p-1" style="background-color: #f5d6d6;border-radius: 10px;">
+  <h5 class="font-weight-bold">My info</h5>
+<div class="row">
+  <div class="col-6">
+    <p>
+      Good with dog &nbsp; <i class="fa fa-check" style="color:black;margin-left: -6px;"></i>
+    </p>
+    <p>
+      Good with cat &nbsp; <i class="fa fa-check" style="color:black;margin-left: -6px;"></i>
+    </p>
+  </div>
+  <div class="col-6">
+    <p>
+      shots current &nbsp; <i class="fa fa-check" style="color:black;margin-left: -6px;"></i>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+
+<!--My story-->
+<div class="container my-4" >
+  <div class="border p-1" style="background-color: #f5d6d6;border-radius: 10px;">
+  <h5 class="font-weight-bold">My story</h5>
+<div class="row">
+  <div class="col-12">
+    <p>
+      Hi, my name is Kiki, I am living in Oaklnad now. Quiet, 
+      leans in for pets, mouthy when overstimulated, tries 
+      to escape kennel when entering Friendly, 
+      wants to escape kennel and shelter in general, 
+      easy to handle otherwise Overall friendly and confident dog.
+      amenable to handling, harnessing, etc.  
+    </p>
+    <br>
+    <br>
+  </div>
+</div>
+</div>
+</div>
+
+    
+
+<!-- Nav_Bottom start -->
+<div class="container-fluid">
+    <div class="row">
+        <div class=" col-xs-12 col-md-8 mx-auto" id="NavBottom">
+            <ul class="nav fixed-bottom bg-white navbar-dark justify-content-center">
+                <li class="nav-item col-xs-4 mb-2">
+                    <a class="nav-link active" href="getInvolved.html">Get Involved</a>
+                </li>
+                <li class="nav-item col-xs-4 mb-2">
+                    <a class="nav-link" href="volunteer.html">Volunteer</a>
+                </li>
+                <li class="nav-item col-xs-4 mb-2">
+                    <a class="nav-link" href="adoption.html">Adoption</a>
+                </li>
+                </ul>
+                <style type="text/css">
+                #NavBottom ul li{
+                    border:1px solid #030507;
+                    text-decoration: none;
+                    font-size: 20px;
+                    line-height: 22px;
+                }
+                #NavBottom ul li a{
+                    color: black;
+                }
+                #NavBottom ul li:active{
+                    background-color: #F88A8A;
+                }
+                #NavBottom ul li::after{
+                    background-color: #F88A8A;
+                }
+                #NavBottom ul li:hover{
+                    background-color: #F88A8A;
+
+                }
+
+            </style>
+        </div>
+    </div>
+</div>           
+</body></html>

@@ -1,0 +1,140 @@
+
+body { /*default body style (black Verdana)*/
+  font-family:Verdana;
+  color:#000000; 
+}
+
+.centerBar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mmm a {
+  background-color: white;
+  border-color: black; 
+  border-radius: 8px;
+
+}
+
+.mmm a:hover {
+  background-color: #F4ECEE;
+}
+
+.flt a:hover {
+  border-bottom: black;
+}
+.topSpace {
+  margin-top: 25px;
+}
+
+#centerThis{
+  justify-content:center;
+}
+
+#leftThis{
+  margin-left: 5%;
+  justify-content: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #F4ECEE;
+  float: left;
+  width: 88%;
+  background: #F4ECEE;
+  border-radius: 20px;
+  margin-left: -28px;
+}
+
+form.example button {
+  float: left;
+  width: 17%;
+  padding: 10px;
+  background: #F4ECEE;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #F4ECEE;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+form.example button:hover {
+  background: #F4ECEE;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.circle {
+  height: 110px;
+  width: 110px;
+  background-color: #e8d4d8;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 110px;
+  text-align: center;
+  padding: auto;
+  font-size: 18px;
+  color:black;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.element {
+  display: inline-block;
+  margin-left: 20px;
+  width: 65px;
+  height: 30px; 
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 3px;
+  font-family: 'Philosopher';
+}

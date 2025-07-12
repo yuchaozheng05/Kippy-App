@@ -1,0 +1,286 @@
+<!-- Referenced: https://www.w3schools.com/html/html_responsive.asp-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- add Bootstrap 4 (from https://getbootstrap.com/docs/4.0/getting-started/download/)-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+	body {
+    padding-top: 0;
+    padding-right: 0;
+	  padding-left: 0;
+    padding-bottom: 0;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+.row{
+  margin: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+    color: black;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+    background-color:#fff;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px #F88A8A;
+
+}
+.card-body{
+  padding: 10px;
+
+
+}
+.card img{
+    border: 1px solid #Fff
+}
+.card-text{
+   margin: 0px 0px 0px;
+   font-style: italic;
+}
+.btn {
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+.feOffset input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+
+</style>
+
+<title>dogcatinfo</title>
+</head>
+
+<!-- you can also specify styles straight in html! Let's use Verdana on this page.-->
+<body style="font-family: 'Philosopher';">
+ <!-- header container start -->
+<div class="container-fluid my-4">
+  <div class="row">
+    <div class="col-2 ">
+      <a href="dogcatinfo.html"><button class="btn "><i class="fa fa-arrow-left fa-lg"></i></button></a>
+    </div>
+    <div class="col-10">
+    <h5 class="font-weight-bold m-2" style="padding: 0px; margin: 0px;text-align:center;color: #B57061;">Ask about me</h5>
+    </div>
+    </div>
+</div>
+<div class="container-fluid my-4">
+  <div class="row">
+    <div class="col-5 p-0">
+      <div class="lightbox">
+        <img
+             src="images/image 39.png"
+             alt=" image 1"
+             class="margin:0px img-resposive img-fluid"
+             style="border: 1px solid white"
+             />
+      </div>
+      <!--Facts  about me-->
+      <div class="container-fluid my-1"  style="padding:0px 0px;">
+        <div class="border" style="background-color: #f5d6d6; padding:0px 1px;">
+        <h5 class="font-weight-bold" style="font-size:16px">Facts  about me</h5>
+      <div class="row"style="font-size:12px">
+        <div class="col-12">
+          <p>
+            Breed:<br> German Shepherd Dog
+          </p>
+          <p>
+            Color:<br>Orange/Chestnut
+          </p>
+          <p>
+            Age:<br>2 Years Old, Adult
+          </p>
+          <p>
+            Size:<br>Large 61-100 Lbs
+          </p>
+          <p>
+            Weight:<br>-
+          </p>
+          <p>
+            Sex:<br>Male
+          </p>
+          <p>
+            Pet ID:<br>A000007
+          </p>
+        </div>
+
+      </div>
+      </div>
+      </div>
+      <!--Info-->
+      <div class="container-fluid my-1" style="padding:0px 0px;" >
+        <div class="border p-1" style="background-color: #f5d6d6;padding:0px 1px;">
+        <h5 class="font-weight-bold"style="font-size:16px">My info</h5>
+      <div class="row" style="font-size:14px;word-wrap:normal">
+        <div class="col-12">
+          <p>
+            Good with dog &nbsp; <i class="fa fa-check" style="color:black;margin-left: -6px;"></i>
+          </p>
+          <p>
+            Good with cat &nbsp; <i class="fa fa-check" style="color:black;margin-left: -6px;"></i>
+          </p>
+          <p>
+            shots current &nbsp; <i class="fa fa-check" style="color:black;margin-left: -6px;"></i>
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+    </div>
+    <div class="col-7">
+      <h5 class="font-weight-bold" >Ask about Kiki</h5>
+      <p style="font-size:14px;word-wrap:normal">
+        Inquire as guest | Login account
+      </p>
+      <form>
+        <div class="form-group mb-1 my-2" >
+          <div class="row">
+            <div class="offset-0  my-1">
+              <input type="text" class="form-control form-control-sm" placeholder="First name">
+            </div>
+          </div>
+          <div class="row">
+          <div class="offset-0  my-1">
+            <input type="text" class="form-control form-control-sm" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-0  my-1">
+          <input type="text" class="form-control form-control-sm" placeholder="Phone Number">
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-0  my-1">
+          <input type="text" class="form-control form-control-sm" placeholder="Email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-0  my-1">
+            <input type="text" class="form-control form-control-sm" placeholder="City">
+          </div>
+          <div class="offset-0  my-1">
+            <input type="text" class="form-control form-control-sm" placeholder="State">
+          </div>
+          <div class="row">
+            <div class="offset-0  my-1">
+              <input type="text" class="form-control form-control-sm" placeholder="Zip">
+              </div>
+          </div>
+
+        </div>
+        </div>
+      
+        <div class="row">
+        <div class="form-group"></div>
+        <div class="row my-0">
+          <label for="exampleFormControlTextarea1"><h5 style="font-size:16px;">Message</h5></label>
+        </div>
+        <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" placeholder="1500 charecter remaining"></textarea>
+        </div>
+        <hr>
+
+        
+        <div class="row">
+          <h5 style="font-size:16px;">Make an impact with you Inguiry</h5>
+          <div class="form-group">
+            <div class="row my-0">
+              <label for="exampleFormControlTextarea1"><h6 style="font-size:15px;">Home type </h6></label>
+            </div>
+            <div class="form-check form-check-inline"  style="font-size:14px;">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">House</label>
+            </div>
+            <div class="form-check form-check-inline" style="font-size:14px;">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Apartment</label>
+            </div>
+            <div class="form-check form-check-inline" style="font-size:14px;">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+              <label class="form-check-label" for="inlineRadio3">Townhouse</label>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="row">
+            <div class="form-group">
+              <div class="row my-0">
+                <label for="exampleFormControlTextarea1"><h6  style="font-size:15px;">Rent or Own </h6></label>
+              </div>
+              <div class="form-check form-check-inline" style="font-size:14px;">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline" style="font-size:14px;">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <div class="row my-0">
+              <label for="exampleFormControlTextarea1"><h6 style="font-size:15px;">Kid</h6></label>
+            </div>
+            <div class="form-check form-check-inline"  style="font-size:14px;">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">Yes</label>
+            </div>
+            <div class="form-check form-check-inline" style="font-size:14px;">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">No</label>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <button onclick="window.location.href='dogcatinfo.html' "  class="btn col-12" style=" text-align: center; margin-top: 10px; background-color: #FBBBBB;"> Send </button>
+        <br>
+      </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>       
+</body></html>
